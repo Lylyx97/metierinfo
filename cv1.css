@@ -1,0 +1,74 @@
+.page
+{
+	border: 5px solid black;
+	border-radius: 10px;
+	width: 780px;
+	height: 1550px;
+	font-size: 16px;
+	font-family: Verdana;
+	margin: auto;
+	box-shadow: 2px 4px 3px black;
+	padding: 1em;
+}
+
+
+.entête
+{
+	height: 250px;
+	border: 3px solid black;
+	padding: 1em;
+
+}
+
+.info 
+{
+	border: 2px ;
+	float: left  ;
+}
+
+
+.photo
+{
+	float: right;
+
+}
+
+
+
+
+.section1
+{
+	margin: 10px;
+	
+
+}
+
+.date1
+{
+	float: left;
+	padding: 1px;
+	font-family: verdana;
+}
+
+
+}
+
+
+
+h2{
+	float: left;
+	color:skyblue;
+}
+
+.formation{
+	font-size: 20px;
+	font-family: verdana;
+	text-align: right;
+}
+
+span.alyssa{
+	font-size: 25px;
+	color: skyblue;
+	font-family: italic;
+
+}
