@@ -49,9 +49,9 @@ function calculate(){
 
         document.getElementById("ST").value=(d+h+l+p+t+x+B+F+J+N+R);
 
-        var ST-remise=Number(document.getElementById("ST-remise").value);
+        var STremise=Number(document.getElementById("STremise").value);
 
-        document.getElementById("ST-remise").value=(ST-remise);
+        document.getElementById("STremise").value=(STremise);
 
         var imposition=parseInt(document.getElementById("imposition").value+"%");
         var tt=parseInt(document.getElementById("tt").value);
@@ -61,7 +61,7 @@ function calculate(){
         var frais=Number(document.getElementById("frais").value);
         var solde=Number(document.getElementById("solde").value);
 
-        document.getElementById("solde").value=(ST-remise+tt+frais);
+        document.getElementById("solde").value=(STremise+tt+frais);
         }
 
         function access(){
